@@ -1,0 +1,97 @@
+import {
+    ImgPorto1,
+    ImgPorto2,
+    ImgPorto3,
+    nextjs,
+    typescript,
+    telegram,
+    bootstrap,
+    service,
+    html,
+    css,
+    js,
+    tailwind,
+    react,
+    progress,
+    market,
+    teamCover,
+    aboutCover,
+    resume,
+    person,
+    whatsapp,
+    cover,
+    logo,
+    quotes,
+    send,
+    shield,
+    star,
+    menu,
+    close,
+    google,
+    apple,
+    arrowUp,
+    discount,
+    facebook,
+    instagram,
+    linkedin,
+    twitter,
+} from '../public/assets/list'
+
+export const webSkills = [
+    {
+        id: 'skill-1',
+        img: html,
+        content: 'html',
+    },
+    {
+        id: 'skill-2',
+        img: css,
+        content: 'css',
+    },
+    {
+        id: 'skill-3',
+        img: js,
+        content: 'javascript',
+    },
+    {
+        id: 'skill-4',
+        img: typescript,
+        content: 'typescript',
+    },
+    {
+        id: 'skill-5',
+        img: tailwind,
+        content: 'tailwind css',
+    },
+    {
+        id: 'skill-6',
+        img: react,
+        content: 'react js',
+    },
+    {
+        id: 'skill-7',
+        img: nextjs,
+        content: 'next js',
+    },
+]
+
+export const slides = [
+    {
+        id: 'slide-1',
+        img: ImgPorto1,
+        name: 'Solar System',
+        content: 'about solar system in our galaxy',
+    },
+    {
+        id: 'slide-2',
+        img: ImgPorto2,
+        name: 'Broom.id',
+        content: 'renting a vehicle',
+    },
+    {
+        id: 'slide-3',
+        img: ImgPorto3,
+        name: 'Konn',
+        content: 'make a website for business',
+    },
+]

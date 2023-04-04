@@ -29,5 +29,47 @@ import react from './react.svg'
 import service from './service.svg'
 import bootstrap from './bootstrap.svg'
 import telegram from './telegram.svg'
+import typescript from './typescript.svg'
+import nextjs from './nextjs.svg'
+import ImgPorto1 from './solar system.png'
+import ImgPorto2 from './broom.id.png'
+import ImgPorto3 from './konn website.png'
 
-export { telegram, bootstrap, service, html, css, js, tailwind, react, progress, market, teamCover, aboutCover, resume, person, whatsapp, cover, logo, quotes, send, shield, star, menu, close, google, apple, arrowUp, discount, facebook, instagram, linkedin, twitter }
+export {
+    ImgPorto1,
+    ImgPorto2,
+    ImgPorto3,
+    nextjs,
+    typescript,
+    telegram,
+    bootstrap,
+    service,
+    html,
+    css,
+    js,
+    tailwind,
+    react,
+    progress,
+    market,
+    teamCover,
+    aboutCover,
+    resume,
+    person,
+    whatsapp,
+    cover,
+    logo,
+    quotes,
+    send,
+    shield,
+    star,
+    menu,
+    close,
+    google,
+    apple,
+    arrowUp,
+    discount,
+    facebook,
+    instagram,
+    linkedin,
+    twitter,
+}
