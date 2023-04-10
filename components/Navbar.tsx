@@ -8,7 +8,7 @@ export default function Navbar() {
     const [toggle, settoggle] = useState(false)
     return (
         <>
-            <section className='w-full flex justify-between items-center bg-black shadow-xl '>
+            <section className='w-full flex justify-between items-center bg-black shadow-xl fixed left-0 top-0 py-5 px-6'>
                 <div className='font-bold text-xl text-white'>
                     <Link href='/' className='flex justify-start items-center cursor-pointer'>
                         <Image src={logo} alt='logo' className='mr-2' />
@@ -41,12 +41,17 @@ export default function Navbar() {
                 </div>
                 <div className={`${toggle ? 'flex' : 'hidden'} mt-16 fixed inset-0 bg-black bg-opacity-50`} />
                 <div className={`${toggle ? 'flex' : 'hidden'} w-full absolute top-16 left-0 border-t border-b border-b-white bg-black`}>
-                    <ul className='w-full fixed left-0 bg-black'>
-                        <li className='px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>About</li>
-                        <li className='px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>Skill</li>
-                        <li className='px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>Hobby</li>
-                        <li className='px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>Portfolio</li>
-                        <div className='px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>
+                    <ul className='w-full flex flex-col fixed left-0 bg-black'>
+                        <li className='text-center px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>
+                            <Link href='/about'>About</Link>
+                        </li>
+                        <li className='text-center px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>
+                            <Link href='/skill'>Skills</Link>
+                        </li>
+                        <li className='text-center px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>
+                            <Link href='/portfolio'>Portfolio</Link>
+                            </li>
+                        <div className='flex justify-center px-6 py-2 border-b-2 font-normal cursor-pointer text-lg'>
                             <ButtonContact />
                         </div>
                     </ul>
