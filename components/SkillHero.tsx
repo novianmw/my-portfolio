@@ -25,7 +25,7 @@ export default function SkillHero() {
                     <div className="flex-flex-1 flex-col">
                         <div className="flex justify-center md:justify-start items-center">
                             <p className="py-3 md:py-10 md:px-10 px-4 text-[31px] md:text-6xl">
-                                <span className="bg-gradient-to-r from-sky-300 to-white bg-clip-text text-transparent">"Dreams</span>
+                                <span className="bg-gradient-to-r from-sky-300 to-white bg-clip-text text-transparent">&quot;Dreams</span>
                             </p>
                         </div>
                         <div className="flex justify-center items-center">
@@ -39,7 +39,7 @@ export default function SkillHero() {
                         <div className="flex justify-center items-center">
                             <p className="py-3 md:px-10 px-4 text-[31px] md:text-6xl text-center">
                                 <span className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">As long as</span> you{" "}
-                                <span className="bg-gradient-to-r from-white to-sky-300 bg-clip-text text-transparent">Believe."</span>
+                                <span className="bg-gradient-to-r from-white to-sky-300 bg-clip-text text-transparent">Believe.&quot;</span>
                             </p>
                         </div>
                         <div className="flex justify-end items-center">
