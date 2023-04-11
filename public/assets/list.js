@@ -34,8 +34,10 @@ import nextjs from './nextjs.svg'
 import ImgPorto1 from './solar system.png'
 import ImgPorto2 from './broom.id.png'
 import ImgPorto3 from './konn website.png'
+import ImgContact from './phone contact.jpg'
 
 export {
+    ImgContact,
     ImgPorto1,
     ImgPorto2,
     ImgPorto3,

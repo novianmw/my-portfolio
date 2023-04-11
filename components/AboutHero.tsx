@@ -3,9 +3,9 @@ export default function AboutHero() {
         <>
             <section className='flex justify-center items-center'>
                 <div className='flex flex-1 flex-col text-center'>
-                    <h1 className='my-32 text-6xl md:text-[100px] uppercase'>
-                        The <span className='bg-gradient-to-r from-sky-300 to-white bg-clip-text text-transparent'>Ambitious</span> of Creating a{' '}
-                        <span className='bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent'>Technology</span>
+                    <h1 className='my-32 text-[50px] md:text-[100px] uppercase'>
+                        The <span className='bg-gradient-to-r from-sky-300 to-white bg-clip-text text-transparent'>Ambitious</span> of Creating a
+                        <span className='bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent'> Technology</span>
                     </h1>
                     <div className='flex text-justify mt-6 md:mt-32'>
                         <p className='py-10 md:px-10 px-4 text-2xl leading-8'>
@@ -22,16 +22,16 @@ export default function AboutHero() {
                             Web Developer and keep continue to learn more about digital technology.
                         </p>
                     </div>
-                    <div className='hidden md:flex justify-start items-center'>
-                        <p className='py-10 md:px-10 px-4 text-6xl'>
+                    <div className='flex md:justify-start justify-center items-center'>
+                        <p className='py-3 md:py-10 md:px-10 px-4 text-[31px] md:text-6xl'>
                             "Chasing <span className='bg-gradient-to-r from-sky-300 to-white bg-clip-text text-transparent'>dreams</span> is like
                         </p>
                     </div>
-                    <div className='hidden md:flex justify-center items-center'>
-                        <p className='py-10 md:px-10 px-4 text-6xl'>walking alone on</p>
+                    <div className='flex justify-center items-center'>
+                        <p className='py-3 md:py-10 md:px-10 px-4 text-[31px] md:text-6xl'>walking alone on</p>
                     </div>
-                    <div className='hidden md:flex justify-end items-center mb-32'>
-                        <p className='py-10 md:px-10 px-4 text-6xl'>
+                    <div className='flex justify-center md:justify-end items-center mb-32'>
+                        <p className='py-3 md:py-10 md:px-10 px-4 text-[31px] md:text-6xl'>
                             an endless <span className='bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent'>road.</span>
                         </p>
                     </div>
