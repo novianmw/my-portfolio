@@ -18,6 +18,7 @@ import whatsapp from "./whatsapp.svg"
 import person from "./person.svg"
 import resume from "./resume.svg"
 import aboutCover from "./Digital Marketing.jpg"
+import teamCover from "./team.jpg"
 import market from "./Market.jpg"
 import progress from "./progress.jpg"
 import html from "./html.svg"
@@ -52,6 +53,7 @@ export {
     react,
     progress,
     market,
+    teamCover,
     aboutCover,
     resume,
     person,
