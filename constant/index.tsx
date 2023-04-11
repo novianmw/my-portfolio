@@ -35,63 +35,63 @@ import {
     instagram,
     linkedin,
     twitter,
-} from '../public/assets/list'
+} from "../public/assets/list"
 
 export const webSkills = [
     {
-        id: 'skill-1',
+        id: "skill-1",
         img: html,
-        content: 'html',
+        content: "html",
     },
     {
-        id: 'skill-2',
+        id: "skill-2",
         img: css,
-        content: 'css',
+        content: "css",
     },
     {
-        id: 'skill-3',
+        id: "skill-3",
         img: js,
-        content: 'javascript',
+        content: "javascript",
     },
     {
-        id: 'skill-4',
+        id: "skill-4",
         img: typescript,
-        content: 'typescript',
+        content: "typescript",
     },
     {
-        id: 'skill-5',
+        id: "skill-5",
         img: tailwind,
-        content: 'tailwind css',
+        content: "tailwind css",
     },
     {
-        id: 'skill-6',
+        id: "skill-6",
         img: react,
-        content: 'react js',
+        content: "react js",
     },
     {
-        id: 'skill-7',
+        id: "skill-7",
         img: nextjs,
-        content: 'next js',
+        content: "next js",
     },
 ]
 
 export const slides = [
     {
-        id: 'slide-1',
+        id: "slide-1",
         img: ImgPorto1,
-        name: 'Solar System',
-        content: 'about solar system in our galaxy',
+        name: "Solar System",
+        content: "about solar system in our galaxy",
     },
     {
-        id: 'slide-2',
+        id: "slide-2",
         img: ImgPorto2,
-        name: 'Broom.id',
-        content: 'renting a vehicle',
+        name: "Broom.id",
+        content: "renting a vehicle",
     },
     {
-        id: 'slide-3',
+        id: "slide-3",
         img: ImgPorto3,
-        name: 'Konn',
-        content: 'make a website for business',
+        name: "Konn",
+        content: "make a website for business",
     },
 ]
