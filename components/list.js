@@ -8,5 +8,6 @@ import SkillHero from "./SkillHero"
 import PortfolioHero from "./PortfolioHero"
 import ButtonSubmit from "./ButtonSubmit"
 import ContactForm from "./ContactForm"
+import ButtonResume from "./ButtonResume"
 
-export { ButtonSubmit, ContactForm, PortfolioHero, SkillHero, AboutHero, ButtonContact, SocialMedia, Navbar, Hero, Footer }
+export { ButtonResume, ButtonSubmit, ContactForm, PortfolioHero, SkillHero, AboutHero, ButtonContact, SocialMedia, Navbar, Hero, Footer }

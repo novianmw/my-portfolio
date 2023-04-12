@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { cover } from "../public/assets/list"
-import ButtonHire from "./ButtonHire"
+import ButtonResume from "./ButtonResume"
 
 export default function Hero() {
     return (
@@ -25,7 +25,7 @@ export default function Hero() {
                             </p>
                         </div>
                         <div className="md:mx-0 mx-auto py-2 font-normal text-lg">
-                            <ButtonHire />
+                            <ButtonResume />
                         </div>
                     </div>
                 </div>
