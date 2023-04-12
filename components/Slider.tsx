@@ -14,7 +14,7 @@ export default function Slider() {
         setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
     }
 
-    const dotClick = (index: SetStateAction<number>) => {
+    const dotClick = (index: any) => {
         setCurrentSlide(index)
     }
 
