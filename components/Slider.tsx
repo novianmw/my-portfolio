@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react"
+import { useState } from "react"
 import Image from "next/image"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
 import { slides } from "../constant"
