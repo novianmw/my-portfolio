@@ -5,7 +5,7 @@ import { logo, menu, close } from "../public/assets/list"
 import ButtonContact from "./ButtonContact"
 
 export default function Navbar() {
-    const [toggle, settoggle] = useState(false)
+    const [toggle, setToggle] = useState(false)
     return (
         <>
             <section className="w-full flex justify-between items-center bg-black shadow-xl fixed left-0 top-0 py-5 px-6">
@@ -36,7 +36,7 @@ export default function Navbar() {
                         width={6}
                         height={6}
                         className="w-6 h-6"
-                        onClick={() => settoggle((prev) => !prev)}
+                        onClick={() => setToggle((prev) => !prev)}
                     />
                 </div>
                 <div className={`${toggle ? "flex" : "hidden"} mt-16 fixed inset-0 bg-black bg-opacity-50`} />
