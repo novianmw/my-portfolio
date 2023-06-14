@@ -22,7 +22,6 @@ export default function Home() {
                         <Hero />
                         <Footer />
                     </div>
-                    <div className="flex tex"></div>
                 </div>
             </section>
         </>
