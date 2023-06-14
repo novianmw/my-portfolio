@@ -34,6 +34,8 @@ import nextjs from "./nextjs.svg"
 import ImgPorto1 from "./solar system.png"
 import ImgPorto2 from "./broom.id.png"
 import ImgPorto3 from "./konn website.png"
+import ImgPorto4 from "./design-camp.png"
+import ImgPorto5 from "./moviemaniamantap.png"
 import ImgContact from "./phone contact.jpg"
 
 export {
@@ -41,6 +43,8 @@ export {
     ImgPorto1,
     ImgPorto2,
     ImgPorto3,
+    ImgPorto4,
+    ImgPorto5,
     nextjs,
     typescript,
     telegram,
